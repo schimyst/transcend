@@ -56,7 +56,10 @@
  * # base style overrides
  *
  * ------------------------------------------------------------------- */
-html {
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+ html {
   font-size: 10px;
 }
 @media only screen and (max-width: 400px) {
@@ -71,7 +74,7 @@ html, body {
 
 body {
   background: #111111;
-  font-family: "metropolis-regular", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.7rem;
   font-style: normal;
   font-weight: normal;
@@ -107,7 +110,7 @@ a:active {
  * 
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "metropolis-semibold", sans-serif;
+  font-family: "roboto-semibold", sans-serif;
   color: #000000;
   font-style: normal;
   font-weight: normal;
@@ -185,7 +188,7 @@ p img {
 }
 
 p.lead {
-  font-family: "metropolis-regular", sans-serif;
+  font-family: "roboto-regular", sans-serif;
   font-size: 2.4rem;
   line-height: 1.75;
   margin-bottom: 3.6rem;
@@ -215,7 +218,7 @@ em, i, strong, b {
 }
 
 em, i {
-  font-family: "metropolis-italic", sans-serif;
+  font-family: "roboto-italic", sans-serif;
 }
 
 strong, b {
@@ -1448,7 +1451,7 @@ input::-moz-focus-inner {
   list-style: none;
   display: inline-block;
   font-size: 1.8rem;
-  margin: 0;
+  margin: -15px;
 }
 .header-nav__social li {
   display: inline-block;

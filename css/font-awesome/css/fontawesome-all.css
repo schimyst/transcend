@@ -1003,8 +1003,9 @@ readers do not read off random characters that represent icons */
 .fa-eye-slash:before {
   content: "\f070"; }
 
+
 .fa-facebook:before {
-  content: "\f09a"; }
+  content: "\f0e1"; }
 
 .fa-facebook-f:before {
   content: "\f39e"; }
@@ -2432,7 +2433,7 @@ readers do not read off random characters that represent icons */
   content: "\f1e8"; }
 
 .fa-twitter:before {
-  content: "\f099"; }
+  content: "\f16d"; }
 
 .fa-twitter-square:before {
   content: "\f081"; }
