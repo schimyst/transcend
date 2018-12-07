@@ -396,7 +396,7 @@ li {
  * ------------------------------------------------------------------- */
 a {
     text-decoration: none;
-    line-height: inherit;
+    line-height: initial;
 }
 
 a img {
